@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>eliminarfacturas</name>
+	<displayName><![CDATA[Eliminar facturas]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Elimina todas las facturas generadas o a partir de un pedido concreto]]></description>
+	<author><![CDATA[Christian Herrero]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
