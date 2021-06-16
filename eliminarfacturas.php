@@ -62,6 +62,7 @@ class Eliminarfacturas extends Module
     public function install()
     {
         Configuration::updateValue('ELIMINARFACTURAS', '');
+	Configuration::updateValue('ELIMINARFACTURAS_RANGE', '');	
 
         return parent::install();
     }
@@ -69,6 +70,7 @@ class Eliminarfacturas extends Module
     public function uninstall()
     {
         Configuration::deleteByName('ELIMINARFACTURAS');
+	Configuration::deleteByName('ELIMINARFACTURAS_RANGE');
 
         return parent::uninstall();
     }
